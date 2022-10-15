@@ -2,15 +2,18 @@
   <title>Google</title>
   <script async src="https://arc.io/widget.min.js#LirQLBhK"></script>
 </head>
-<div style='width:620px;height:480px;max-width:100%'>
+<div style='width:640px;height:480px;max-width:100%'>
     <div id='game'></div>
 </div>
 
 <script type='text/javascript'>
     EJS_player = '#game';
-    EJS_core = 'gb';
-    EJS_gameUrl = 'Pokemon - Red Version (USA, Europe) (SGB Enhanced).gb';
+    
+    // Can also be mednafen_psx or mednafen_psx_hw
+    EJS_core = 'psx';
+    // URL to Game rom
+    EJS_gameUrl = '';
+    // Path to the data directory
     EJS_pathtodata = 'https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/';
 </script>
-
 <script src='https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/loader.js'></script>
